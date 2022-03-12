@@ -19,7 +19,7 @@ npm install
 #### 🖥️ Setting up BOT
 Rename ``example-env.env`` to ``.env`` and open up the file and input the required fields.
 
-Make sure to enable both "Privileged Gateway Intents" on the [**Discord Developer Dashboard**](https://discord.com/developers).
+Make sure to enable both "Privileged Gateway Intents" and add redirect on the [**Discord Developer Dashboard**](https://discord.com/developers).
 
 #### 📡 Starting the application 
 Open up the root directory and run the following command.
