@@ -11,7 +11,7 @@ Discord Verifaction Bot is a way for verifcation method for your server, designe
 
 ## 🚀 Installation / Setup
 #### ⌚ Installing Requirements
-Download the latest version from [Releases](https://github.com/zedyn/discord-verifaction-bot/releases), open up the root directory and run the following command.
+Download the latest version, open up the root directory and run the following command.
 ```bash
 npm install
 ```
