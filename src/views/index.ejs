@@ -1,0 +1,25 @@
+<%- include("partials/header") %>
+
+<title><%= bot.user.username %></title>
+
+<div class="container text-center text-light" style="padding-top: 110px; padding-bottom: 20px;">
+    <% if (user) { %>
+        <img class="img-fluid rounded" src="https://cdn.discordapp.com/avatars/<%= user.id %>/<%= user.avatar %>" width="128px" height="auto">
+        <br>
+        <br>
+        <h1>Hey, <%= user.username %>!</h1>
+        <p></p>   
+        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+            <a href="/verify/profile" type="button" class="btn btn-success"><i class="fas fa-check"></i> Verify</a>
+            <a href="/logout" type="button" class="btn btn-danger"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+        </div>
+    <% } else { %>
+        <img class="img-fluid rounded" src="<%= bot.user.displayAvatarURL({dynamic: true, size: 128}) %>" width="128px" height="auto">
+        <br>
+        <br>
+        <h1><%= bot.user.username %></h1>
+        <p>You can verify your account via login Discord!</p>   
+        <a href="/login" type="button" class="btn btn-light"><i class="fab fa-discord"></i> Login with Discord!</a>
+    <% } %>
+</div>
+
