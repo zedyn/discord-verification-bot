@@ -6,9 +6,6 @@
 # 📚 About
 Discord Verifaction Bot is a way for verifcation method for your server, designed to create applications without having to write a single line of code.
 
-# Website Previews:
-<img src="https://cdn.discordapp.com/attachments/949573967931404348/952156385368477726/unknown.png">
-
 ## 🚀 Installation / Setup
 #### ⌚ Installing Requirements
 Download the latest version, open up the root directory and run the following command.
